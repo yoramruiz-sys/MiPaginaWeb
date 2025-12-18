@@ -1,71 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>EstampaLoka</title>
-    <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>ESTAMPALOKA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estampaloka.css">
 </head>
 <body>
 
-<header class="header">
-    <div class="logo">ESTAMPALOKA</div>
+<header class="estampaloka encabezado">
+  <div class="logo">ESTAMPALOKA</div>
 
-    <div class="search-box">
-        <input type="text" placeholder="Buscar...">
-        <span class="search-icon">🔍</span>
-    </div>
+  <div class="buscador">
+    <input type="text" placeholder="Buscar álbum o sticker...">
+    <span>🔍</span>
+  </div>
 
-    <div class="icons">
-        <span class="icon">❤️</span>
-        <span class="icon">🛒</span>
-        <button class="login-btn">Iniciar sesión</button>
-    </div>
+  <div class="acciones">
+    <span>❤️</span>
+    <span>🛒</span>
+    <button id="loginBtn">Iniciar sesión</button>
+  </div>
 </header>
 
-<nav class="nav">
-    <a href="#">Colección</a>
-    <a href="#">Colección</a>
-    <a href="#">Colección</a>
-    <a href="#">Colección</a>
-    <a href="#">Colección</a>
+<nav class="estampaloka menu">
+  <a href="#">PREVENTAS</a>
+  <a href="#">FIFA</a>
+  <a href="#">COLECCIÓN</a>
+  <a href="#">COMICS</a>
+  <a href="#">MARVEL</a>
 </nav>
 
-<main class="container">
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-    <div class="card">
-        <img src="https://via.placeholder.com/200x200" alt="Colección">
-        <p>Colección</p>
-    </div>
-</main>
+<main class="estampaloka galeria" id="galeria"></main>
 
+<script src="estampaloka.js"></script>
 </body>
 </html>
-
