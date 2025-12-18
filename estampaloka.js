@@ -2,21 +2,21 @@ const albumsBase = [
   {
     nombre: "Lionel Messi",
     coleccion: "FIFA Stickers",
-    imagen: "file:///C:/Users/Usuario/Desktop/estampaloka/images%20(1).jpeg"
+    imagen: "images/messi.jpeg"
   },
   {
     nombre: "Cristiano Ronaldo",
     coleccion: "FIFA Stickers",
-    imagen: "file:///C:/Users/Usuario/Desktop/estampaloka/images.jpeg"
+    imagen: "images/ronaldo.jpeg"
   },
   {
     nombre: "Kylian Mbappé",
     coleccion: "FIFA Stickers",
-    imagen: "file:///C:/Users/Usuario/Desktop/estampaloka/s-l400.png"
+    imagen: "images/mbappe.png"
   }
 ];
 
-// duplicar álbumes
+// Duplicar álbumes
 let albums = [];
 for (let i = 0; i < 4; i++) {
   albums = albums.concat(albumsBase);
@@ -24,7 +24,6 @@ for (let i = 0; i < 4; i++) {
 
 const galeria = document.getElementById("galeria");
 
-// mostrar álbumes
 albums.forEach(a => {
   galeria.innerHTML += `
     <div class="album">
@@ -34,3 +33,9 @@ albums.forEach(a => {
     </div>
   `;
 });
+
+// Botón iniciar sesión
+document.getElementById("loginBtn").addEventListener("click", () => {
+  alert("🚧 Iniciar sesión: EN CONSTRUCCIÓN 🚧");
+});
+
