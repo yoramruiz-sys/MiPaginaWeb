@@ -2,12 +2,12 @@ const albumsBase = [
   {
     nombre: "Lionel Messi",
     coleccion: "FIFA Stickers",
-    imagen: "images/messi.jpeg"
+    imagen: "imágenes (1).jpeg"
   },
   {
     nombre: "Cristiano Ronaldo",
     coleccion: "FIFA Stickers",
-    imagen: "images/ronaldo.jpeg"
+    imagen: "images/imágenes.jpeg"
   },
   {
     nombre: "Kylian Mbappé",
@@ -38,4 +38,5 @@ albums.forEach(a => {
 document.getElementById("loginBtn").addEventListener("click", () => {
   alert("🚧 Iniciar sesión: EN CONSTRUCCIÓN 🚧");
 });
+
 
